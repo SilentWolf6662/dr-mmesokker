@@ -15,3 +15,4 @@ types/generated/*.d.ts
 package-lock.json
 
 .turbo
+~$signmanual_DS.docx

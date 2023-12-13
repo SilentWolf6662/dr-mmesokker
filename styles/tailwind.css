@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	@font-face {
+		font-family: raleway;
+		src: url(/assets/fonts/raleway/Raleway-Medium.ttf) format(".ttf");
+	}
+}
+
 .container {
 	@apply w-full px-3 mx-auto
 }
@@ -89,25 +96,27 @@
 }
 
 * {
-    @apply box-border
+	@apply box-border
 }
 
 
 /* The dots/bullets/indicators */
 .dot.active:hover {
-    @apply bg-[#717171];
+	@apply bg-[#717171];
 }
 
 /* Fading animation */
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
+
 @keyframes fade {
-    from {
-        @apply opacity-40
-    }
-    to {
-        @apply opacity-100
-    }
+	from {
+		@apply opacity-40
+	}
+
+	to {
+		@apply opacity-100
+	}
 }

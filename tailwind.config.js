@@ -13,6 +13,9 @@ module.exports = {
 			xxl: '1400px',
 		},
 		extend: {
+			fontFamily: {
+				'raleway': ['raleway', 'sans-serif']
+			},
 			colors: {
 				"primary-brighter": '#000742',
 				primary: '#000530',
