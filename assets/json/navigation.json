@@ -1,0 +1,44 @@
+{
+	"content": [
+		{
+			"name": "Forside",
+			"link": "#home",
+			"template": {
+				"desktop": "<li class=\"animate_animated animate_fadeInDown uppercase font-bold text-[#F1CD97]\"><a href=$link>$name</a></li>",
+				"mobile": "<li class=\"w-full animate_animated animate_fadeInRight animate_delay-instant animate_speed\"><a class=\"py-5 block uppercase font-bold text-[#F1CD97]\" href=$link>$name</a></li>"
+			}
+		},
+		{
+			"name": "Produkter",
+			"link": "#products",
+			"template": {
+				"desktop": "<li class=\"animate_animated animate_fadeInDown uppercase font-bold text-[#F1CD97]\"><a href=$link>$name</a></li>",
+				"mobile": "<li class=\"w-full animate_animated animate_fadeInRight animate_delay-0dot5s animate_speed\"><a class=\"py-5 block uppercase font-bold text-[#F1CD97]\" href=$link>$name</a></li>"
+			}
+		},
+		{
+			"name": "Galleri",
+			"link": "galleri.html",
+			"template": {
+				"desktop": "<li class=\"animate_animated animate_fadeInDown uppercase font-bold text-[#F1CD97]\"><a href=$link>$name</a></li>",
+				"mobile": "<li class=\"w-full animate_animated animate_fadeInRight animate_delay-1s animate_speed\"><a class=\"py-5 block uppercase font-bold text-[#F1CD97]\" href=$link>$name</a></li>"
+			}
+		},
+		{
+			"name": "Om os",
+			"link": "#aboutUs",
+			"template": {
+				"desktop": "<li class=\"animate_animated animate_fadeInDown uppercase font-bold text-[#F1CD97]\"><a href=$link>$name</a></li>",
+				"mobile": "<li class=\"w-full animate_animated animate_fadeInRight animate_delay-1dot5s animate_speed\"><a class=\"py-5 block uppercase font-bold text-[#F1CD97]\" href=$link>$name</a></li>"
+			}
+		},
+		{
+			"name": "Kontakt",
+			"link": "#contact",
+			"template": {
+				"desktop": "<li class=\"animate_animated animate_fadeInDown uppercase font-bold text-[#F1CD97]\"><a href=$link>$name</a></li>",
+				"mobile": "<li class=\"w-full animate_animated animate_fadeInRight animate_delay-2s animate_speed\"><a class=\"py-5 block uppercase font-bold text-[#F1CD97]\" href=$link>$name</a></li>"
+			}
+		}
+	]
+}
