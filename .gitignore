@@ -9,7 +9,6 @@
 .vscode
 .DS_Store
 .parcel-cache
-index.html
 yarn.lock
 yarn-error.log
 types/generated/*.d.ts
