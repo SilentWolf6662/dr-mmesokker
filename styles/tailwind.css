@@ -121,10 +121,18 @@
 	}
 }
 
+
 /* Lightbox */
 img.hover-shadow {
-	@apply transition-[0.3s];
+	transition: 0.3s;
 }
 .hover-shadow:hover {
-	@apply shadow-[0_4px_8px_0_rgba(255,255,255,0.3),0_6px_20px_0_rgba(255,255,255,0.29)];
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7), 0 6px 20px 0 rgba(255, 255, 255, 0.69)
+}
+.active {
+	@apply opacity-100;
+}
+
+.slides {
+	display: none;
 }
