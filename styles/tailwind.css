@@ -120,3 +120,11 @@
 		@apply opacity-100
 	}
 }
+
+/* Lightbox */
+img.hover-shadow {
+	@apply transition-[0.3s];
+}
+.hover-shadow:hover {
+	@apply shadow-[0_4px_8px_0_rgba(255,255,255,0.3),0_6px_20px_0_rgba(255,255,255,0.29)];
+}

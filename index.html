@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet" />
+		<link href="/styles/animate.css" rel="stylesheet" />
+		<link href="/styles/output.css" rel="stylesheet" />
+		<link href="/styles/custom.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon" />
+		<title>DrømmeSokker</title>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="x-ua-compatible" content="ie=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
-	<link href="/styles/animate.css" rel="stylesheet" />
-	<link href="/styles/output.css" rel="stylesheet" />
-	<link href="/styles/custom.css" rel="stylesheet" />
-	<title>DrømmeSokker</title>
-</head>
-
-<body class="container bg-primary-darker font-raleway">
-	<header class="text-white" id="home">
-		<!-- #region Default Navbar -->
-		<nav class="flex justify-between items-center px-10 py-5 relative bg-primary rounded-lg">
-			<a class="font-white text-xl animate_animated animate_fadeInDown" href="" title="Logo">
-				<figure>
-					<img src="assets/img/logo.png" alt="Drømme Sokkers Logo" class="h-[100px]" />
-				</figure>
-			</a>
-			<div class="hidden md:flex gap-16 text-gray-400">
-				<ul class="flex gap-10 items-center">
-					<div class="flex gap-10 items-center" id="desktop"> </div>
-					<!-- <form method="GET">
+	<body class="container bg-primary-darker font-raleway">
+		<header class="text-white" id="home">
+			<!-- #region Default Navbar -->
+			<nav class="flex justify-between items-center px-10 py-5 relative bg-primary rounded-lg">
+				<a class="font-white text-xl animate_animated animate_fadeInDown" href="" title="Logo">
+					<figure>
+						<img src="assets/img/logo.png" alt="Drømme Sokkers Logo" class="h-[100px]" />
+					</figure>
+				</a>
+				<div class="hidden md:flex gap-16 text-gray-400">
+					<ul class="flex gap-10 items-center">
+						<div class="flex gap-10 items-center" id="desktop"> </div>
+						<!-- <form method="GET">
                         <div class="relative text-gray-500 focus-within:text-gray-400 animate_animated animate_fadeInDown">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                                 <button title="Submit" type="submit" class="p-1 focus:outline-none focus:shadow-outline">
@@ -39,46 +39,43 @@
                             <input type="search" name="search" class="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 border-2 border-gray-700 focus:outline-none focus:bg-gray-700 focus:text-gray-200" placeholder="Search..." autocomplete="off">
                         </div>
                     </form> -->
-				</ul>
-			</div>
-			<button title="burgerMenu" type="button" id="menu_btn"
-				class="w-10 md:hidden animate_animated animate_fadeInRight">
-				<svg class="h-20 absolute w-20">
-					<defs>
-						<filter id="gooeyness">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
-							<feColorMatrix in="blur" mode="matrix"
-								values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
-							<feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
-						</filter>
-					</defs>
-				</svg>
-				<div class="flex flex-wrap max-h-40 w-[320px] sm:w-[640px]">
-					<div id="burgerMenu" class="icon hambugerIcon">
-						<svg class="h-20 absolute w-20 burger" version="1.1" height="100" width="100"
-							viewBox="0 0 100 100">
-							<path class="line line1" d="M 50,35 H 30" />
-							<path class="line line2" d="M 50,35 H 70" />
-							<path class="line line3" d="M 50,50 H 30" />
-							<path class="line line4" d="M 50,50 H 70" />
-							<path class="line line5" d="M 50,65 H 30" />
-							<path class="line line6" d="M 50,65 H 70" />
-						</svg>
-						<svg class="h-20 absolute w-20 x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-							<path class="line" d="M 34,32 L 66,68" />
-							<path class="line" d="M 66,32 L 34,68" />
-						</svg>
-					</div>
+					</ul>
 				</div>
-			</button>
+				<button title="burgerMenu" type="button" id="menu_btn" class="w-10 md:hidden animate_animated animate_fadeInRight">
+					<svg class="h-20 absolute w-20">
+						<defs>
+							<filter id="gooeyness">
+								<feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+								<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
+								<feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+							</filter>
+						</defs>
+					</svg>
+					<div class="flex flex-wrap max-h-40 w-[320px] sm:w-[640px]">
+						<div id="burgerMenu" class="icon hambugerIcon">
+							<svg class="h-20 absolute w-20 burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+								<path class="line line1" d="M 50,35 H 30" />
+								<path class="line line2" d="M 50,35 H 70" />
+								<path class="line line3" d="M 50,50 H 30" />
+								<path class="line line4" d="M 50,50 H 70" />
+								<path class="line line5" d="M 50,65 H 30" />
+								<path class="line line6" d="M 50,65 H 70" />
+							</svg>
+							<svg class="h-20 absolute w-20 x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+								<path class="line" d="M 34,32 L 66,68" />
+								<path class="line" d="M 66,32 L 34,68" />
+							</svg>
+						</div>
+					</div>
+				</button>
 
-			<!-- mobile menu -->
+				<!-- mobile menu -->
 
-			<div id="mobileMenu" class="absolute top-full bg-primary text-gray-400 right-10 left-10 hidden z-10">
-				<div class="flex flex-col gap-10 p-5 md:hidden">
-					<ul class="flex flex-col gap-2 items-center text-center">
-						<div class="flex flex-col gap-2 items-center text-center" id="mobile"> </div>
-						<!-- <form method="GET">
+				<div id="mobileMenu" class="absolute top-full bg-primary text-gray-400 right-10 left-10 hidden z-10">
+					<div class="flex flex-col gap-10 p-5 md:hidden">
+						<ul class="flex flex-col gap-2 items-center text-center">
+							<div class="flex flex-col gap-2 items-center text-center" id="mobile"> </div>
+							<!-- <form method="GET">
                             <div class="relative text-gray-500 focus-within:text-gray-400 animate_animated animate_fadeInRight animate_delay-2s animate_speed">
                                 <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                                     <button title="Submit" type="submit" class="p-1 focus:outline-none focus:shadow-outline">
@@ -90,297 +87,331 @@
                                 <input type="search" name="search" class="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 border-2 border-gray-700 focus:outline-none focus:bg-gray-700 focus:text-gray-200" placeholder="Search..." autocomplete="off">
                             </div>
                         </form> -->
-					</ul>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
-		<!-- #endregion -->
-	</header>
-	<main class="text-center mt-12 animate_animated animate_fadeIn animate_slow bg-primary-darker rounded-lg">
-		<article class="text-center flex flex-col justify-center text-white">
-			<section>
-				<!-- #region Slider -->
-				<div class="max-w-[300px] relative m-auto">
-					<!-- Full-width images with number and caption text -->
-					<figure class="slides hidden fade">
-						<figcaption class="numbertext text-primary text-xs absolute px-3 py-2 top-0">1 / 3</figcaption>
-						<img src="./assets/img/socks1.png" class="w-full max-h-[375px] rounded-lg shadow-md"
-							alt="Black and gray wool sock" />
-					</figure>
+			</nav>
+			<!-- #endregion -->
+		</header>
+		<main class="text-center mt-12 animate_animated animate_fadeIn animate_slow bg-primary-darker rounded-lg">
+			<article class="text-center flex flex-col justify-center text-white">
+				<section>
+					<!-- #region Slider -->
+					<div class="max-w-[300px] relative m-auto">
+						<!-- Full-width images with number and caption text -->
+						<figure class="slides hidden fade">
+							<figcaption class="numbertext text-primary text-xs absolute px-3 py-2 top-0">1 / 3</figcaption>
+							<img src="./assets/img/socks4.png" class="w-full max-h-[375px] rounded-lg shadow-md" alt="Black and gray wool sock" />
+						</figure>
 
-					<figure class="slides hidden fade">
-						<div class="numbertext text-primary text-xs absolute px-3 py-2 top-0">2 / 3</div>
-						<img src="./assets/img/socks2.png" class="w-full max-h-[375px] rounded-lg shadow-md"
-							alt="Orange sock" />
-					</figure>
+						<figure class="slides hidden fade">
+							<div class="numbertext text-primary text-xs absolute px-3 py-2 top-0">2 / 3</div>
+							<img src="./assets/img/socks5.png" class="w-full max-h-[375px] rounded-lg shadow-md" alt="Orange sock" />
+						</figure>
 
-					<figure class="slides hidden fade">
-						<figcaption class="numbertext text-primary text-xs absolute px-3 py-2 top-0">3 / 3</figcaption>
-						<img src="./assets/img/socks3.png" class="w-full max-h-[375px] rounded-lg shadow-md"
-							alt="Gray sock" />
-					</figure>
+						<figure class="slides hidden fade">
+							<figcaption class="numbertext text-primary text-xs absolute px-3 py-2 top-0">3 / 3</figcaption>
+							<img src="./assets/img/socks6.png" class="w-full max-h-[375px] rounded-lg shadow-md" alt="Gray sock" />
+						</figure>
 
-					<!-- Next and previous buttons -->
-					<!--
+						<!-- Next and previous buttons -->
+						<!--
                         <a class="prev cursor-pointer absolute w-auto mt-[-22px] text-primary font-bold text-lg transition-[0.6s] duration-[ease] select-none p-4 rounded-[0_3px_3px_0] top-2/4 left-0 hover:bg-[rgba(0,0,0,0.8)]" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next cursor-pointer absolute w-auto mt-[-22px] text-primary font-bold text-lg transition-[0.6s] duration-[ease] select-none p-4 rounded-[3px_0_0_3px] top-2/4 right-0 hover:bg-[rgba(0,0,0,0.8)]" onclick="plusSlides(1)">&#10095;</a>
                     -->
-				</div>
-				<br />
+					</div>
+					<br />
 
-				<!-- The dots/circles -->
-				<div class="text-center">
-					<span
-						class="dot cursor-pointer h-[15px] w-[15px] bg-[#bbb] inline-block transition-[background-color] duration-[0.6s] ease-css mx-0.5 my-0 rounded-[50%]"
-						onclick="currentSlide(1)"></span>
-					<span
-						class="dot cursor-pointer h-[15px] w-[15px] bg-[#bbb] inline-block transition-[background-color] duration-[0.6s] ease-css mx-0.5 my-0 rounded-[50%]"
-						onclick="currentSlide(2)"></span>
-					<span
-						class="dot cursor-pointer h-[15px] w-[15px] bg-[#bbb] inline-block transition-[background-color] duration-[0.6s] ease-css mx-0.5 my-0 rounded-[50%]"
-						onclick="currentSlide(3)"></span>
-				</div>
-				<!-- #endregion -->
-			</section>
-			<section class="mt-20">
-				<h1 class="text-4xl">Velkommen til <span class="text-[#F1CD97] uppercase">DrømmeSokker</span></h1>
-				<h2 class="text-3xl">Vi har dine varme ynglings sokker</h2>
-				<p class="text-2xl p-10">Vi har et stort udvalg af sokker til alle aldre og køn</p>
-				<button type="button">
-					<a class="relative px-4 -mt-16" href="#products">
-						<div class="bg-primary-brighter p-3 rounded-lg shadow-lg text-[#F1CD97]">
-							<h4 class="mt-1 text-2xl font-semibold uppercase leading-tight truncate">
-								Se vores udvalg
-							</h4>
+					<!-- The dots/circles -->
+					<div class="text-center">
+						<span class="dot cursor-pointer h-[15px] w-[15px] bg-[#bbb] inline-block transition-[background-color] duration-[0.6s] ease-css mx-0.5 my-0 rounded-[50%]" onclick="currentSlide(1)"></span>
+						<span class="dot cursor-pointer h-[15px] w-[15px] bg-[#bbb] inline-block transition-[background-color] duration-[0.6s] ease-css mx-0.5 my-0 rounded-[50%]" onclick="currentSlide(2)"></span>
+						<span class="dot cursor-pointer h-[15px] w-[15px] bg-[#bbb] inline-block transition-[background-color] duration-[0.6s] ease-css mx-0.5 my-0 rounded-[50%]" onclick="currentSlide(3)"></span>
+					</div>
+					<!-- #endregion -->
+				</section>
+				<section class="mt-20">
+					<h1 class="text-4xl">Velkommen til <span class="text-[#F1CD97] uppercase">DrømmeSokker</span></h1>
+					<h2 class="text-3xl">Vi har dine varme ynglings sokker</h2>
+					<p class="text-2xl p-10">Vi har et stort udvalg af sokker til alle aldre og køn</p>
+					<button type="button">
+						<a class="relative px-4 -mt-16" href="#products">
+							<div class="bg-primary-brighter p-3 rounded-lg shadow-lg text-[#F1CD97]">
+								<h4 class="mt-1 text-2xl font-semibold uppercase leading-tight truncate"> Se vores udvalg </h4>
+							</div>
+						</a>
+					</button>
+				</section>
+				<section class="mt-20" id="products">
+					<p class="text-3xl">Vores mest solgte produkter</p>
+					<div class="max-w-[1100px] flex flex-col lg:flex-row mx-auto">
+						<button type="button" class="card m-10">
+							<figure>
+								<img src="./assets/img/socks3.png" alt="Termo Uldsokker" class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
+								<figcaption class="relative px-4 -mt-16">
+									<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
+										<div class="flex items-baseline">
+											<span class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">Ny </span>
+										</div>
+										<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Termo Uldsokker </h4>
+										<div class="mt-1">
+											50 DKK
+											<span class="text-gray-500 text-sm"> /par</span>
+										</div>
+										<div class="mt-4">
+											<span class="text-teal-600 text-md font-semibold">4.5/5 </span>
+											<span class="text-sm text-gray-500">(baseret på 86 bedømmelser)</span>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</button>
+						<button type="button" class="card m-10">
+							<figure>
+								<img src="./assets/img/socks1.png" alt="Lange John Strømper" class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
+								<figcaption class="relative px-4 -mt-16">
+									<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
+										<div class="flex items-baseline">
+											<span class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide"></span>
+										</div>
+										<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Lange John Strømper </h4>
+										<div class="mt-1">
+											fra 45 DKK
+											<span class="text-gray-500 text-sm"> /par</span>
+										</div>
+										<div class="mt-4">
+											<span class="text-teal-600 text-md font-semibold">4/5 </span>
+											<span class="text-sm text-gray-500">(based on 62 ratings)</span>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</button>
+						<button type="button" class="card m-10">
+							<figure>
+								<img src="./assets/img/socks2.png" alt="Juliette Strømper" class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
+								<figcaption class="relative px-4 -mt-16">
+									<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
+										<div class="flex items-baseline">
+											<span class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">Ny</span>
+										</div>
+										<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Juliette Strømper </h4>
+										<div class="mt-1">
+											85 DKK
+											<span class="text-gray-500 text-sm"> /par</span>
+										</div>
+										<div class="mt-4">
+											<span class="text-teal-600 text-md font-semibold">3/5 </span>
+											<span class="text-sm text-gray-500">(based on 32 ratings)</span>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</button>
+					</div>
+					<div class="max-w-[1100px] hidden flex-col lg:flex-row mx-auto" id="moreProducts">
+						<button type="button" class="card m-10">
+							<figure>
+								<img src="./assets/img/socks3.png" alt="Termo Uldsokker" class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
+								<figcaption class="relative px-4 -mt-16">
+									<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
+										<div class="flex items-baseline">
+											<span class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">Ny </span>
+										</div>
+										<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Termo Uldsokker </h4>
+										<div class="mt-1">
+											50 DKK
+											<span class="text-gray-500 text-sm"> /par</span>
+										</div>
+										<div class="mt-4">
+											<span class="text-teal-600 text-md font-semibold">4.5/5 </span>
+											<span class="text-sm text-gray-500">(baseret på 86 bedømmelser)</span>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</button>
+						<button type="button" class="card m-10">
+							<figure>
+								<img src="./assets/img/socks1.png" alt="Lange John Strømper" class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
+								<figcaption class="relative px-4 -mt-16">
+									<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
+										<div class="flex items-baseline">
+											<span class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide"></span>
+										</div>
+										<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Lange John Strømper </h4>
+										<div class="mt-1">
+											fra 45 DKK
+											<span class="text-gray-500 text-sm"> /par</span>
+										</div>
+										<div class="mt-4">
+											<span class="text-teal-600 text-md font-semibold">4/5 </span>
+											<span class="text-sm text-gray-500">(based on 62 ratings)</span>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</button>
+						<button type="button" class="card m-10">
+							<figure>
+								<img src="./assets/img/socks2.png" alt="Juliette Strømper" class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
+								<figcaption class="relative px-4 -mt-16">
+									<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
+										<div class="flex items-baseline">
+											<span class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">Ny</span>
+										</div>
+										<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Juliette Strømper </h4>
+										<div class="mt-1">
+											85 DKK
+											<span class="text-gray-500 text-sm"> /par</span>
+										</div>
+										<div class="mt-4">
+											<span class="text-teal-600 text-md font-semibold">3/5 </span>
+											<span class="text-sm text-gray-500">(based on 32 ratings)</span>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</button>
+					</div>
+					<button type="button" id="moreProducts" onclick="toggleMore()">
+						<div class="relative px-4 -mt-16">
+							<div class="bg-primary-brighter p-3 rounded-lg shadow-lg text-[#F1CD97]">
+								<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate" id="moreProductsBtnText"> Se flere </h4>
+							</div>
 						</div>
+					</button>
+				</section>
+				<section class="mt-20" id="aboutUs">
+					<p class="text-3xl uppercase">Om os</p>
+					<div class="mt-16 flex flex-col lg:flex-row mx-auto max-w-[1000px] md:justify-evenly justify-center">
+						<figure class="m-10 mx-auto">
+							<img src="https://i.pravatar.cc/300?img=1" alt="random image" class="w-40 h-40 object-center rounded-full shadow-lg" />
+							<figcaption class="mt-5">
+								<p>Katrine Steffensen</p>
+								<p>Salgschef</p>
+							</figcaption>
+						</figure>
+						<figure class="m-10 mx-auto">
+							<img src="https://i.pravatar.cc/300?img=17" alt="random image" class="w-40 h-40 object-center rounded-full shadow-lg" />
+							<figcaption class="mt-5">
+								<p>Oscar Nielsen</p>
+								<p>Direktør</p>
+							</figcaption>
+						</figure>
+						<figure class="m-10 mx-auto">
+							<img src="https://i.pravatar.cc/300?img=8" alt="random image" class="w-40 h-40 object-center rounded-full shadow-lg" />
+							<figcaption class="mt-5">
+								<p>Alexander Christiansen</p>
+								<p>Lagerchef</p>
+							</figcaption>
+						</figure>
+					</div>
+					<p class="text-lg">
+						Vi interesserer os for vores egen og andres sundhed og tror på, at der findes en løsning på helbredsmæssige
+						<br />
+						såvel som komfortmæssige udfordringer, når det vedrører fødderne.
+					</p>
+					<p class="text-lg"> Vi er et nystartet firma fra 2023 med 10 ansatte, leverer vi strømper over hele landet. </p>
+				</section>
+				<section class="mt-20" id="contact">
+					<p class="text-3xl uppercase">Kontakt</p>
+					<div class="px-4 m-10 flex flex-col lg:flex-row mx-auto max-w-[1000px] md:justify-evenly justify-center">
+						<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97] h-[280px] w-[280px] mb-5 lg:mb-0 mx-auto">
+							<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Adresse </h4>
+							<div>
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Drømme Sokker </p>
+								<p class="mt-3 text-xl font-normal leading-tight truncate text-white">
+									13, Tolstedhøjen,
+									<br />
+									7400 Gjellerup
+								</p>
+							</div>
+						</div>
+						<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97] h-[280px] w-[280px] my-5 lg:my-0 mx-auto">
+							<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Åbningstider </h4>
+							<div>
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Mandag - Fredag: </p>
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> 10 - 16 </p>
+								<br />
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Lørdag: </p>
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Lukket </p>
+								<br />
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Søndag: </p>
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Lukket </p>
+							</div>
+						</div>
+						<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97] h-[280px] w-[280px] mt-5 lg:mt-0 mx-auto">
+							<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Kontaktoplysninger </h4>
+							<div>
+								<p class="mt-1 text-xl font-normal leading-tight truncate text-white"> Drømme Sokker </p>
+								<p class="mt-3 text-xl font-normal leading-tight truncate text-white">
+									<a href="tel:+4597759143">
+										<i class="bi bi-telephone-fill flex"></i>
+										<span class="flex font-serif">+45 97 75 91 43</span>
+									</a>
+									<br />
+									<a href="mailto:info@droemmesokker.dk">
+										<i class="bi bi-envelope-at-fill flex"></i>
+										<span class="flex font-serif">info@droemmesokker.dk</span>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="bg-primary-darker mt-3">
+					<div class="py-8 lg:py-10 px-4 mx-auto max-w-screen-md">
+						<form action="#" class="space-y-8" name="contactForm" onsubmit="return false">
+							<div>
+								<label for="email" class="block mb-2 text-sm font-medium text-gray-300">Din email</label>
+								<input type="email" id="email" name="email" autocomplete="off" onchange="validateEmail()" class="shadow-sm border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-primary-brighter border-gray-500 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@droemmesokker.dk" required />
+								<span class="text-sm italic text-red-500">
+									<div id="validationEmailResult"></div>
+								</span>
+							</div>
+							<div>
+								<label for="subject" class="block mb-2 text-sm font-medium text-gray-300">Emne</label>
+								<input type="text" id="subject" name="subject" autocomplete="off" onchange="validateSubject()" class="block p-3 w-full text-sm rounded-lg border shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-primary-brighter border-gray-500 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Lad os vide hvad vi kan hjælpe dig med." required />
+								<span class="text-sm italic text-red-500">
+									<div id="validationSubjectResult"></div>
+								</span>
+							</div>
+							<div class="sm:col-span-2">
+								<label for="message" class="block mb-2 text-sm font-medium text-gray-300">Din besked</label>
+								<textarea id="message" name="message" rows="6" autocomplete="off" onchange="validateMessage()" class="block p-2.5 w-full text-sm rounded-lg shadow-sm border focus:ring-primary-500 focus:border-primary-500 bg-primary-brighter border-gray-500 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 resize-none" placeholder="Skriv din besked..."></textarea>
+								<span class="text-sm italic text-red-500">
+									<div id="validationMessageResult"></div>
+								</span>
+							</div>
+							<button type="submit" onclick="sendMessage()" data-modal-target="default-modal" data-modal-toggle="default-modal" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-primary-brighter hover:bg-primary-700 focus:ring-primary-800">Send besked</button>
+						</form>
+					</div>
+				</section>
+			</article>
+		</main>
+		<footer class="text-center h-16 animate_animated animate_fadeInUp bg-primary rounded-lg text-gray-500">
+			<div class="flex justify-center mt-10">
+				<div class="px-5 my-5">
+					<a href="" class="text-2xl">
+						<i class="bi bi-facebook"></i>
 					</a>
-				</button>
-			</section>
-			<section class="mt-20" id="products">
-				<p class="text-3xl">Vores mest solgte produkter</p>
-				<div class="max-w-[1100px] flex flex-col lg:flex-row mx-auto">
-					<button type="button" class="card m-10">
-						<figure>
-							<img src="./assets/img/socks2.png" alt="random image"
-								class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
-							<figcaption class="relative px-4 -mt-16">
-								<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
-									<div class="flex items-baseline">
-										<span
-											class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">Ny
-										</span>
-									</div>
-									<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Termo
-										uldsokker
-									</h4>
-									<div class="mt-1">
-										50 DKK
-										<span class="text-gray-500 text-sm"> /par</span>
-									</div>
-									<div class="mt-4">
-										<span class="text-teal-600 text-md font-semibold">4.5/5 </span>
-										<span class="text-sm text-gray-500">(baseret på 86 bedømmelser)</span>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</button>
-					<button type="button" class="card m-10">
-						<figure>
-							<img src="./assets/img/socks2.png" alt="random image"
-								class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
-							<figcaption class="relative px-4 -mt-16">
-								<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
-									<div class="flex items-baseline">
-										<span
-											class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide"></span>
-									</div>
-									<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Lange John Strømper
-									</h4>
-									<div class="mt-1">
-										fra 45 DKK
-										<span class="text-gray-500 text-sm"> /par</span>
-									</div>
-									<div class="mt-4">
-										<span class="text-teal-600 text-md font-semibold">4/5 </span>
-										<span class="text-sm text-gray-500">(based on 62 ratings)</span>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</button>
-					<button type="button" class="card m-10">
-						<figure>
-							<img src="./assets/img/socks2.png" alt="random image"
-								class="w-full object-cover object-center rounded-lg shadow-md h-[300px] md:h-[300px]" />
-							<figcaption class="relative px-4 -mt-16">
-								<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97]">
-									<div class="flex items-baseline">
-										<span
-											class="bg-teal-100 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">Ny</span>
-									</div>
-									<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Juliette Strømper
-									</h4>
-									<div class="mt-1">
-										85 DKK
-										<span class="text-gray-500 text-sm"> /par</span>
-									</div>
-									<div class="mt-4">
-										<span class="text-teal-600 text-md font-semibold">3/5 </span>
-										<span class="text-sm text-gray-500">(based on 32 ratings)</span>
-									</div>
-								</div>
-							</figcaption>
-						</figure>
-					</button>
 				</div>
-				<button type="button">
-					<div class="relative px-4 -mt-16">
-						<div class="bg-primary-brighter p-3 rounded-lg shadow-lg text-[#F1CD97]">
-							<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">
-								Se mere
-							</h4>
-						</div>
-					</div>
-				</button>
-			</section>
-			<section class="mt-20" id="aboutUs">
-				<p class="text-3xl uppercase">Om os</p>
-				<div class="mt-16 flex flex-col lg:flex-row mx-auto max-w-[1000px] md:justify-evenly justify-center">
-					<figure class="m-10">
-						<img src="https://i.pravatar.cc/300?img=1" alt="random image"
-							class="w-40 h-40 object-center rounded-full shadow-lg" />
-						<figcaption class="mt-5">
-							<p>Katrine Steffensen</p>
-							<p>Salgschef</p>
-						</figcaption>
-					</figure>
-					<figure class="m-10">
-						<img src="https://i.pravatar.cc/300?img=17" alt="random image"
-							class="w-40 h-40 object-center rounded-full shadow-lg" />
-						<figcaption class="mt-5">
-							<p>Oscar Nielsen</p>
-							<p>Direktør</p>
-						</figcaption>
-					</figure>
-					<figure class="m-10">
-						<img src="https://i.pravatar.cc/300?img=8" alt="random image"
-							class="w-40 h-40 object-center rounded-full shadow-lg" />
-						<figcaption class="mt-5">
-							<p>Alexander Christiansen</p>
-							<p>Lagerchef</p>
-						</figcaption>
-					</figure>
+				<div class="px-5 my-5">
+					<a href="" class="text-2xl">
+						<i class="bi bi-twitter-x"></i>
+					</a>
 				</div>
-				<p class="text-lg">
-					Vi interesserer os for vores egen og andres sundhed og tror på, at der findes en løsning på
-					helbredsmæssige
-					<br>
-					såvel som komfortmæssige udfordringer, når det vedrører fødderne.
-				</p>
-				<p class="text-lg">
-					Vi er et nystartet firma fra 2023 med 10 ansatte, leverer vi strømper over hele landet.
-				</p>
-			</section>
-			<section class="mt-20" id="contact">
-				<p class="text-3xl uppercase">Kontakt</p>
-				<div
-					class="px-4 m-10 flex flex-col lg:flex-row mx-auto max-w-[1000px] md:justify-evenly justify-center">
-					<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97] h-[280px] w-[280px]">
-
-						<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Adresse
-						</h4>
-						<div>
-							<p class="mt-1 text-xl font-normal leading-tight truncate text-white">
-								Drømme Sokker
-							</p>
-							<p class="mt-3 text-xl font-normal leading-tight truncate text-white">
-								13, Tolstedhøjen,
-								<br>
-								7400 Gjellerup
-							</p>
-						</div>
-					</div>
-					<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97] h-[280px] w-[280px]">
-
-						<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Åbningstider
-						</h4>
-						<div>
-
-						</div>
-					</div>
-					<div class="bg-primary-brighter p-6 rounded-lg shadow-lg text-[#F1CD97] h-[280px] w-[280px]">
-
-						<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Kontaktoplysninger
-						</h4>
-						<div>
-							<p class="mt-1 text-xl font-normal leading-tight truncate text-white">
-								Drømme Sokker
-							</p>
-							<p class="mt-3 text-xl font-normal leading-tight truncate text-white">
-								<a href="tel:+4597759143">
-									<i class="bi bi-telephone-fill flex"></i>
-									<span class="flex font-serif">+45 97 75 91 43</span>
-								</a>
-								<br>
-								<a href="mailto:info@droemmesokker.dk">
-									<i class="bi bi-envelope-at-fill flex"></i>
-									<span class="flex font-serif">info@droemmesokker.dk</span>
-								</a>
-							</p>
-						</div>
-					</div>
+				<div class="px-5 my-5">
+					<a href="" class="text-2xl">
+						<i class="bi bi-instagram"></i>
+					</a>
 				</div>
-			</section>
-			<section class="bg-primary-darker mt-10">
-				<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-					<p class="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-xl">Lorem ipsum, dolor sit amet
-						consectetur adipisicing elit. Aspernatur, magnam.</p>
-					<form action="#" class="space-y-8" name="contactForm">
-						<div>
-							<label for="email" class="block mb-2 text-sm font-medium text-gray-300">Din
-								email</label>
-							<input type="email" id="email" name="email"
-								class="shadow-sm border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-primary-brighter border-gray-500 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-								placeholder="name@droemmesokker.dk" required>
-						</div>
-						<div>
-							<label for="subject" class="block mb-2 text-sm font-medium text-gray-300">Emne</label>
-							<input type="text" id="subject" name="subject"
-								class="block p-3 w-full text-sm rounded-lg border shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-primary-brighter border-gray-500 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light"
-								placeholder="Lad os vide hvad vi kan hjælpe dig med." required>
-						</div>
-						<div class="sm:col-span-2">
-							<label for="message" class="block mb-2 text-sm font-medium text-gray-300">Din
-								besked</label>
-							<textarea id="message" name="message" rows="6"
-								class="block p-2.5 w-full text-sm rounded-lg shadow-sm border focus:ring-primary-500 focus:border-primary-500 bg-primary-brighter border-gray-500 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 resize-none"
-								placeholder="Skriv din besked..."></textarea>
-						</div>
-						<button type="submit" onclick="sendMessage()"
-							class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg sm:w-fit focus:ring-4 focus:outline-none bg-primary-brighter hover:bg-primary-700 focus:ring-primary-800">Send
-							besked</button>
-					</form>
-				</div>
-			</section>
-		</article>
-	</main>
-	<footer class="text-center h-10 animate_animated animate_fadeInUp bg-primary rounded-lg text-gray-500">
-		<div class="flex justify-center mt-10">
-			<a href="" class="pl-5 pr-5">
-				<i class="bi bi-facebook"></i>
-			</a>
-			<a href="" class="pl-5 pr-5">
-				<i class="bi bi-twitter-x"></i>
-			</a>
-			<a href="" class="pl-5 pr-12">
-				<i class="bi bi-instagram"></i>
-			</a>
-		</div>
-	</footer>
-	<script src="src/js/Navbar.js" type="module"></script>
-	<script src="src/js/Contact.js"></script>
-	<script src="src/js/Slider.js"></script>
-</body>
-
+			</div>
+		</footer>
+		<script src="src/js/Navbar.js" type="module"></script>
+		<script src="src/js/Contact.js"></script>
+		<script src="src/js/Slider.js"></script>
+		<script src="src/js/Readmore.js"></script>
+	</body>
 </html>
