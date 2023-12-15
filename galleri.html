@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet" />
-		<link href="/styles/animate.css" rel="stylesheet" />
-		<link href="/styles/output.css" rel="stylesheet" />
-		<link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon" />
-		<title>DrømmeSokker</title>
-	</head>
 
-	<body class="container bg-primary-darker font-raleway">
-		<header class="text-white" id="home">
-			<!-- #region Default Navbar -->
-			<nav class="flex justify-between items-center px-10 py-5 relative bg-primary rounded-lg">
-				<a class="font-white text-xl animate_animated animate_fadeInDown" href="" title="Logo">
-					<figure>
-						<img src="assets/img/logo.png" alt="Drømme Sokkers Logo" class="h-[100px]" />
-					</figure>
-				</a>
-				<div class="hidden md:flex gap-16 text-gray-400">
-					<ul class="flex gap-10 items-center">
-						<div class="flex gap-10 items-center" id="desktop"> </div>
-						<!-- <form method="GET">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet" />
+	<link href="/styles/animate.css" rel="stylesheet" />
+	<link href="/styles/output.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon" />
+	<title>DrømmeSokker</title>
+</head>
+
+<body class="container bg-primary-darker font-raleway">
+	<header class="text-white" id="home">
+		<!-- #region Default Navbar -->
+		<nav class="flex justify-between items-center px-10 py-5 relative bg-primary rounded-lg">
+			<a class="font-white text-xl animate_animated animate_fadeInDown" href="" title="Logo">
+				<figure>
+					<img src="assets/img/logo.png" alt="Drømme Sokkers Logo" class="h-[100px]" />
+				</figure>
+			</a>
+			<div class="hidden md:flex gap-16 text-gray-400">
+				<ul class="flex gap-10 items-center">
+					<div class="flex gap-10 items-center" id="desktop"> </div>
+					<!-- <form method="GET">
                         <div class="relative text-gray-500 focus-within:text-gray-400 animate_animated animate_fadeInDown">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                                 <button title="Submit" type="submit" class="p-1 focus:outline-none focus:shadow-outline">
@@ -38,43 +39,46 @@
                             <input type="search" name="search" class="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 border-2 border-gray-700 focus:outline-none focus:bg-gray-700 focus:text-gray-200" placeholder="Search..." autocomplete="off">
                         </div>
                     </form> -->
-					</ul>
-				</div>
-				<button title="burgerMenu" type="button" id="menu_btn" class="w-10 md:hidden animate_animated animate_fadeInRight">
-					<svg class="h-20 absolute w-20">
-						<defs>
-							<filter id="gooeyness">
-								<feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
-								<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
-								<feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
-							</filter>
-						</defs>
-					</svg>
-					<div class="flex flex-wrap max-h-40 w-[320px] sm:w-[640px]">
-						<div id="burgerMenu" class="icon hambugerIcon">
-							<svg class="h-20 absolute w-20 burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-								<path class="line line1" d="M 50,35 H 30" />
-								<path class="line line2" d="M 50,35 H 70" />
-								<path class="line line3" d="M 50,50 H 30" />
-								<path class="line line4" d="M 50,50 H 70" />
-								<path class="line line5" d="M 50,65 H 30" />
-								<path class="line line6" d="M 50,65 H 70" />
-							</svg>
-							<svg class="h-20 absolute w-20 x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-								<path class="line" d="M 34,32 L 66,68" />
-								<path class="line" d="M 66,32 L 34,68" />
-							</svg>
-						</div>
+				</ul>
+			</div>
+			<button title="burgerMenu" type="button" id="menu_btn"
+				class="w-10 md:hidden animate_animated animate_fadeInRight">
+				<svg class="h-20 absolute w-20">
+					<defs>
+						<filter id="gooeyness">
+							<feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur" />
+							<feColorMatrix in="blur" mode="matrix"
+								values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
+							<feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+						</filter>
+					</defs>
+				</svg>
+				<div class="flex flex-wrap max-h-40 w-[320px] sm:w-[640px]">
+					<div id="burgerMenu" class="icon hambugerIcon">
+						<svg class="h-20 absolute w-20 burger" version="1.1" height="100" width="100"
+							viewBox="0 0 100 100">
+							<path class="line line1" d="M 50,35 H 30" />
+							<path class="line line2" d="M 50,35 H 70" />
+							<path class="line line3" d="M 50,50 H 30" />
+							<path class="line line4" d="M 50,50 H 70" />
+							<path class="line line5" d="M 50,65 H 30" />
+							<path class="line line6" d="M 50,65 H 70" />
+						</svg>
+						<svg class="h-20 absolute w-20 x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+							<path class="line" d="M 34,32 L 66,68" />
+							<path class="line" d="M 66,32 L 34,68" />
+						</svg>
 					</div>
-				</button>
+				</div>
+			</button>
 
-				<!-- mobile menu -->
+			<!-- mobile menu -->
 
-				<div id="mobileMenu" class="absolute top-full bg-primary text-gray-400 right-10 left-10 hidden z-10">
-					<div class="flex flex-col gap-10 p-5 md:hidden">
-						<ul class="flex flex-col gap-2 items-center text-center">
-							<div class="flex flex-col gap-2 items-center text-center" id="mobile"> </div>
-							<!-- <form method="GET">
+			<div id="mobileMenu" class="absolute top-full bg-primary text-gray-400 right-10 left-10 hidden z-10">
+				<div class="flex flex-col gap-10 p-5 md:hidden">
+					<ul class="flex flex-col gap-2 items-center text-center">
+						<div class="flex flex-col gap-2 items-center text-center" id="mobile"> </div>
+						<!-- <form method="GET">
                             <div class="relative text-gray-500 focus-within:text-gray-400 animate_animated animate_fadeInRight animate_delay-2s animate_speed">
                                 <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                                     <button title="Submit" type="submit" class="p-1 focus:outline-none focus:shadow-outline">
@@ -86,147 +90,168 @@
                                 <input type="search" name="search" class="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 border-2 border-gray-700 focus:outline-none focus:bg-gray-700 focus:text-gray-200" placeholder="Search..." autocomplete="off">
                             </div>
                         </form> -->
-						</ul>
-					</div>
-				</div>
-			</nav>
-			<!-- #endregion -->
-		</header>
-		<main class="text-center mt-12 animate_animated animate_fadeIn animate_slow bg-primary-darker rounded-lg">
-			<article class="text-center flex flex-col justify-center text-white">
-				<section>
-					<h1 class="text-4xl font-bold">Galleri</h1>
-					<p class="text-xl">Her kan du se billeder af vores sokker</p>
-				</section>
-				<section class="flex flex-wrap justify-center gap-10 mt-10 container">
-					<div class="row after:content-[''] after:table after:clear-both">
-						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks1.png" onclick="openModal(); currentSlide(1);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 1" />
-						</figure>
-						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks2.png" onclick="openModal(); currentSlide(2);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 2" />
-						</figure>
-						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks3.png" onclick="openModal(); currentSlide(3);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 3" />
-						</figure>
-						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks4.png" onclick="openModal(); currentSlide(4);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 4" />
-						</figure>
-						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks5.png" onclick="openModal(); currentSlide(5);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 5" />
-						</figure>
-						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks6.png" onclick="openModal(); currentSlide(6);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 6" />
-						</figure>
-						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks7.png" onclick="openModal(); currentSlide(7);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 7" />
-						</figure>
-						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
-							<img src="assets/img/socks8.png" onclick="openModal(); currentSlide(8);" class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 8" />
-						</figure>
-					</div>
-
-					<div id="modal" class="hidden fixed z-[1] w-full h-full overflow-auto bg-[black] pt-[100px] left-0 top-0">
-						<span class="text-[white] absolute text-[35px] font-[bold] right-[25px] top-2.5 cursor-pointer hover:text-[#999] hover:no-underline hover:cursor-pointer focus:text-[#999] focus:no-underline focus:cursor-pointer" onclick="closeModal()">&times;</span>
-						<div class="relative w-[40%] max-w-screen-xl m-auto p-0">
-							<div class="max-w-screen-xl flex justify-center items-center">
-								<figure class="slides w-[300px] h-[375px] overflow-hidden">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">1 / 8</figcaption>
-									<img src="assets/img/socks1.png" class="w-full -mb-1" alt="Socks 1" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">2 / 8</figcaption>
-									<img src="assets/img/socks2.png" class="w-full -mb-1" alt="Socks 2" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">3 / 8</figcaption>
-									<img src="assets/img/socks3.png" class="w-full -mb-1" alt="Socks 3" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">4 / 8</figcaption>
-									<img src="assets/img/socks4.png" class="w-full -mb-1" alt="Socks 4" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">5 / 8</figcaption>
-									<img src="assets/img/socks5.png" class="w-full -mb-1" alt="Socks 5" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">6 / 8</figcaption>
-									<img src="assets/img/socks6.png" class="w-full -mb-1" alt="Socks 6" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">7 / 8</figcaption>
-									<img src="assets/img/socks7.png" class="w-full -mb-1" alt="Socks 7" />
-								</figure>
-
-								<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
-									<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">8 / 8</figcaption>
-									<img src="assets/img/socks8.png" class="w-full -mb-1" alt="Socks 8" />
-								</figure>
-
-								<a class="prev cursor-pointer absolute w-auto mt-[-50px] text-[white] font-[bold] text-xl transition-[0.6s] duration-[ease] select-none p-4 rounded-[0_3px_3px_0] left-0 hover:bg-[rgba(0,0,0,0.8)]" onclick="plusSlides(-1)">&#10094;</a>
-								<a class="next cursor-pointer absolute w-auto mt-[-50px] text-[white] font-[bold] text-xl transition-[0.6s] duration-[ease] select-none p-4 rounded-[3px_0_0_3px] right-0 hover:bg-[rgba(0,0,0,0.8)]" onclick="plusSlides(1)">&#10095;</a>
-							</div>
-
-							<div class="text-center bg-[black] text-[white] px-4 py-0.5">
-								<p id="caption"></p>
-							</div>
-
-							<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks1.png" onclick="currentSlide(1)" alt="Socks 1" />
-							</figure>
-							<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks2.png" onclick="currentSlide(2)" alt="Socks 2" />
-							</figure>
-							<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks3.png" onclick="currentSlide(3)" alt="Socks 3" />
-							</figure>
-							<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks4.png" onclick="currentSlide(4)" alt="Socks 4" />
-							</figure>
-                            <figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks5.png" onclick="currentSlide(5)" alt="Socks 5" />
-							</figure>
-							<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks6.png" onclick="currentSlide(6)" alt="Socks 6" />
-							</figure>
-							<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks7.png" onclick="currentSlide(7)" alt="Socks 7" />
-							</figure>
-							<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
-								<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1" src="assets/img/socks8.png" onclick="currentSlide(8)" alt="Socks 8" />
-							</figure>
-						</div>
-					</div>
-				</section>
-			</article>
-		</main>
-		<footer class="text-center h-16 animate_animated animate_fadeInUp bg-primary rounded-lg text-gray-500">
-			<div class="flex justify-center mt-10">
-				<div class="px-5 my-5">
-					<a href="" class="text-2xl">
-						<i class="bi bi-facebook"></i>
-					</a>
-				</div>
-				<div class="px-5 my-5">
-					<a href="" class="text-2xl">
-						<i class="bi bi-twitter-x"></i>
-					</a>
-				</div>
-				<div class="px-5 my-5">
-					<a href="" class="text-2xl">
-						<i class="bi bi-instagram"></i>
-					</a>
+					</ul>
 				</div>
 			</div>
-		</footer>
-		<script src="src/js/Navbar.js" type="module"></script>
-		<script src="src/js/Lightbox.js"></script>
-	</body>
+		</nav>
+		<!-- #endregion -->
+	</header>
+	<main class="text-center mt-12 animate_animated animate_fadeIn animate_slow bg-primary-darker rounded-lg">
+		<article class="text-center flex flex-col justify-center text-white">
+			<section>
+				<h1 class="text-4xl font-bold">Galleri</h1>
+				<p class="text-xl">Her kan du se billeder af vores sokker</p>
+			</section>
+			<section class="flex flex-wrap justify-center gap-10 mt-10 container">
+				<div class="row after:content-[''] after:table after:clear-both">
+					<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks1.png" onclick="openModal(); currentSlide(1);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 1" />
+					</figure>
+					<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks2.png" onclick="openModal(); currentSlide(2);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 2" />
+					</figure>
+					<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks3.png" onclick="openModal(); currentSlide(3);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 3" />
+					</figure>
+					<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks4.png" onclick="openModal(); currentSlide(4);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 4" />
+					</figure>
+					<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks5.png" onclick="openModal(); currentSlide(5);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 5" />
+					</figure>
+					<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks6.png" onclick="openModal(); currentSlide(6);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 6" />
+					</figure>
+					<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks7.png" onclick="openModal(); currentSlide(7);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 7" />
+					</figure>
+					<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[400px] overflow-hidden">
+						<img src="assets/img/socks8.png" onclick="openModal(); currentSlide(8);"
+							class="w-full hover-shadow cursor-pointer -mb-1" alt="Socks 8" />
+					</figure>
+				</div>
+
+				<div id="modal" class="hidden fixed z-[1] w-full h-full overflow-auto bg-black pt-[100px] left-0 top-0">
+					<span
+						class="text-[white] absolute text-[35px] font-[bold] right-[25px] top-2.5 cursor-pointer hover:text-[#999] hover:no-underline hover:cursor-pointer focus:text-[#999] focus:no-underline focus:cursor-pointer"
+						onclick="closeModal()">&times;</span>
+					<div class="relative w-[40%] max-w-screen-xl m-auto p-0">
+						<div class="max-w-screen-xl flex justify-center items-center">
+							<figure class="slides w-[300px] h-[375px] overflow-hidden">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">1 / 8</figcaption>
+								<img src="assets/img/socks1.png" class="w-full -mb-1" alt="Socks 1" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">2 / 8</figcaption>
+								<img src="assets/img/socks2.png" class="w-full -mb-1" alt="Socks 2" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">3 / 8</figcaption>
+								<img src="assets/img/socks3.png" class="w-full -mb-1" alt="Socks 3" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">4 / 8</figcaption>
+								<img src="assets/img/socks4.png" class="w-full -mb-1" alt="Socks 4" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">5 / 8</figcaption>
+								<img src="assets/img/socks5.png" class="w-full -mb-1" alt="Socks 5" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">6 / 8</figcaption>
+								<img src="assets/img/socks6.png" class="w-full -mb-1" alt="Socks 6" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">7 / 8</figcaption>
+								<img src="assets/img/socks7.png" class="w-full -mb-1" alt="Socks 7" />
+							</figure>
+
+							<figure class="slides w-[300px] h-[375px] overflow-hidden flex justify-center items-center">
+								<figcaption class="text-[#f2f2f2] text-xs absolute px-3 py-2 top-0">8 / 8</figcaption>
+								<img src="assets/img/socks8.png" class="w-full -mb-1" alt="Socks 8" />
+							</figure>
+
+							<a class="prev cursor-pointer absolute w-auto mt-[-50px] text-[white] font-[bold] text-xl transition-[0.6s] duration-[ease] select-none p-4 rounded-[0_3px_3px_0] left-0 hover:bg-[rgba(0,0,0,0.8)]"
+								onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next cursor-pointer absolute w-auto mt-[-50px] text-[white] font-[bold] text-xl transition-[0.6s] duration-[ease] select-none p-4 rounded-[3px_0_0_3px] right-0 hover:bg-[rgba(0,0,0,0.8)]"
+								onclick="plusSlides(1)">&#10095;</a>
+						</div>
+
+						<div class="text-center bg-[black] text-[white] px-4 py-0.5">
+							<p id="caption"></p>
+						</div>
+
+						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks1.png" onclick="currentSlide(1)" alt="Socks 1" />
+						</figure>
+						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks2.png" onclick="currentSlide(2)" alt="Socks 2" />
+						</figure>
+						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks3.png" onclick="currentSlide(3)" alt="Socks 3" />
+						</figure>
+						<figure class="px-2 py-0 pb-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks4.png" onclick="currentSlide(4)" alt="Socks 4" />
+						</figure>
+						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks5.png" onclick="currentSlide(5)" alt="Socks 5" />
+						</figure>
+						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks6.png" onclick="currentSlide(6)" alt="Socks 6" />
+						</figure>
+						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks7.png" onclick="currentSlide(7)" alt="Socks 7" />
+						</figure>
+						<figure class="px-2 py-0 pt-4 float-left w-3/12 h-[164.469px] overflow-hidden">
+							<img class="picture opacity-60 hover:opacity-100 hover-shadow cursor-pointer w-full -mb-1"
+								src="assets/img/socks8.png" onclick="currentSlide(8)" alt="Socks 8" />
+						</figure>
+					</div>
+				</div>
+			</section>
+		</article>
+	</main>
+	<footer class="text-center h-16 animate_animated animate_fadeInUp bg-primary rounded-lg text-gray-500">
+		<div class="flex justify-center mt-10">
+			<div class="px-5 my-5">
+				<a href="" class="text-2xl">
+					<i class="bi bi-facebook"></i>
+				</a>
+			</div>
+			<div class="px-5 my-5">
+				<a href="" class="text-2xl">
+					<i class="bi bi-twitter-x"></i>
+				</a>
+			</div>
+			<div class="px-5 my-5">
+				<a href="" class="text-2xl">
+					<i class="bi bi-instagram"></i>
+				</a>
+			</div>
+		</div>
+	</footer>
+	<script src="src/js/Navbar.js" type="module"></script>
+	<script src="src/js/Lightbox.js"></script>
+</body>
+
 </html>
